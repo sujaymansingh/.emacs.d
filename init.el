@@ -15,3 +15,6 @@
 (setq linum-format "%4d \u2502 ")
 (line-number-mode 1)
 
+
+; I don't want the toolbar
+(menu-bar-mode -1)
