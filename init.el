@@ -15,6 +15,9 @@
 (setq linum-format "%4d \u2502 ")
 (line-number-mode 1)
 
+; I want to see the column number along the bottom
+(setq column-number-mode t)
+
 
 ; I don't want the toolbar
 (menu-bar-mode -1)
