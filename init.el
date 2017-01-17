@@ -9,6 +9,11 @@
 (evil-mode 1)
 
 
+; Need this for python stuff (make sure that flake8 is on the path though!)
+(package-install 'flycheck)
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+
 ; Left margin (with line-numbers and a little spacing between the numbers and the text!)
 (global-linum-mode t)
 (setq linum-format "%d ")
