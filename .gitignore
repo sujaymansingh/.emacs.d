@@ -1,0 +1,5 @@
+# Ignore downloaded packages
+elpa/
+
+# Heh, one day I won't need this...
+.*swp
